@@ -1,0 +1,11 @@
+body {
+  background-color:var(--main-bcg-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  /* шрифт большинства, текст,футер,адреса*/
+  }
+    a .site-nav,
+  a .contacts-footer {
+    text-decoration: none;
+  }

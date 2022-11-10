@@ -1,0 +1,25 @@
+  a {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+  }
+   .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0 auto;
+  }
+  img {
+    display:block;
+    max-width: 100%;
+    height:auto;
+  }
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+   /* Убираю маркеры li */
+   .list {
+    list-style-type: none;
+  }

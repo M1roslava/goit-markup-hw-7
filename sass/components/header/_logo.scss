@@ -1,0 +1,31 @@
+.logo-link {
+    color:var(--primary-accent-color);
+  }
+  .logo-link-one, 
+  .logo-link-two:hover {
+    text-decoration: underline;
+    color:var(--primary-accent-color);
+    
+  }
+  .logo-link-one, 
+  .logo-link-two:focus {
+    text-decoration: var(--primary-accent-color);
+  }
+  .logo-link {
+    display: block;
+    margin-right: 93px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration:none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    /* line-height 31/26=1.19 */
+    color:black;
+     }
+    
+    .page-header .logo-link-one {
+     color:var(--primary-accent-color);
+     /* text-decoration:none; */
+     }

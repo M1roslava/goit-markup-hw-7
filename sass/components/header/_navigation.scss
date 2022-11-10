@@ -1,0 +1,34 @@
+ .navigation {
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+      text-decoration:none;
+      color:var(--h-text-color);
+      /* justify-content: end; */
+    }
+    .site-nav {
+      color:black;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      /* 16/14=1.14 */
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      list-style-type: none;
+      /* flex-wrap: nowrap; */
+      display: flex;
+      /* justify-content: space-between; */
+    
+       }
+    
+      .site-nav-li+.site-nav-li {
+        margin-left: 50px;
+      }
+    
+      .site-nav:hover {
+        color:var(--primary-accent-color);
+      }
+      
+      .site-nav:focus {
+        color:var(--primary-accent-color);
+      }

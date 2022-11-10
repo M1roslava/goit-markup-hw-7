@@ -1,0 +1,44 @@
+ .connect {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+
+  .phone { 
+    margin-left: 51px;
+  }
+
+
+  .header-contacts {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  }
+
+  .header-contacts:hover,
+  .header-contacts:focus { 
+    color: var(--primary-accent-color);
+  }
+
+.envelope-icon {
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  margin-right: 10px;
+  vertical-align:center;
+  fill: currentColor;
+}
+
+.smartphone-icon {
+  width: 10px;
+  height: 16px;
+  align-items: center;
+  margin-right: 10px;
+  vertical-align:center;
+  fill: currentColor;
+}

@@ -1,0 +1,66 @@
+    .follow-footer {
+    margin-left: 93px;
+    
+  }
+  .follow-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .follow-btn {
+ background:var(--primary-accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+align-items: center;
+border-radius:4px;
+border-width:0 ;
+/* параментрытекста кнопки */
+font-family:inherit;
+font-weight: 900;
+font-size: 16px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--main-bcg-color);
+top: 440px;
+transition-property: background-color;
+transition-duration: 250ms;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+
+  .follow-btn:hover,
+  .follow-btn:focus {
+    text-decoration: underline var(--primary-accent-color);
+    color:var(--main-bcg-color);
+    background-color:var(--secondary-accent-color);
+    cursor:pointer;
+    }
+  .footer-input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+align-items: center;
+letter-spacing: 0.03em;
+background-color: #2F303A;
+  }
+  .footer-input:hover,
+  .footer-input:focus {
+    border: 1px solid var(--primary-accent-color);
+    cursor: pointer;
+  }
+  .send-icon {
+    fill: white;
+    height: 24px;
+    width:24px;
+    margin-left: 10px;
+  }

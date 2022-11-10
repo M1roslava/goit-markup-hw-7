@@ -1,0 +1,17 @@
+ .foot {
+    display:flex;
+    
+    padding-top:60px;
+    padding-bottom:60px;
+    align-items: baseline;
+  }
+  .first-part {
+    display:inline-block;
+  }
+  .page-footer {
+    background: #2F303A;
+    } 
+.column {
+        display:flex;
+        flex-direction:column;
+        }

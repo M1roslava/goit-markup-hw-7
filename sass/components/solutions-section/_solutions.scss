@@ -1,0 +1,31 @@
+.solutions {
+  background: #2F303A;
+ 
+  background-image:  linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../images/studio-bg.jpg);
+    text-align: center;
+
+  padding: 200px 0px;
+    }
+  .flex-projects {
+display: flex;
+width: 1200px;
+padding-left: 15px; 
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+  }
+  h1,h2,h3,p {
+    margin:0;
+  }
+  .title-h1 {
+  margin-bottom:45px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* 60/44=1,36 */
+  letter-spacing: 0.06em;
+  color:var(--main-bcg-color);
+  text-transform: uppercase;
+  text-align: center;
+  }
